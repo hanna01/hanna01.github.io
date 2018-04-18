@@ -1,0 +1,39 @@
+---
+---
+<!doctype html>
+<html>
+    <head>
+        <link rel="stylesheet" type="text/css" href="index.css">
+    </head>
+    <body>
+        <h1>{{site.title}}</h1>
+        <div class="highlights">
+
+            <div class="grid">
+                {% for item in site.data.projects %}
+                <a href="{{ item.url }}">
+                    <div class="grid-element"> 
+                        <h3>{{ item.title }} </h3>
+                        <img src="{{item.img}}"></>
+                        <h4>{{ item.description }} </h4>
+                    </div>
+                    </a> 
+                {% endfor %}
+            </div>
+        </div>
+        <div class="projects">
+            <div class="grid">
+                {% for item in site.data.projects %}
+                <a href="{{ item.url }}">
+                    <div class="grid-element"> 
+                        <h3>{{ item.title }} </h3>
+                        <img src="{{item.img}}"></>
+                        <h4>{{ item.description }} </h4>
+                    </div>
+                    </a> 
+                {% endfor %}
+            </div>
+        </div>
+    </body>
+
+</html>

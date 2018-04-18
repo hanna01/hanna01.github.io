@@ -1,0 +1,31 @@
+
+- corbusier:
+  title: 'Corbusier model'
+  url: '#'
+  description: 'A model I made, inspired by Corbusier'
+  img: 'assets/img/corbusier1.jpg'
+- 3dmodel:
+  title: '3d model'
+  url: '#'
+  description: 'I made a 3d model, cool'
+  img: 'assets/img/animation.gif'
+- mies:
+  title: 'Inspired by Mies'
+  url: '#'
+  description: 'I faced my biggest fears and created my dreams'
+  img: 'assets/img/mies1.jpg'
+- corbusier:
+  title: 'Corbusier model'
+  url: '#'
+  description: 'A model I made, inspired by Corbusier'
+  img: 'assets/img/corbusier1.jpg'
+- 3dmodel:
+  title: '3d model'
+  url: '#'
+  description: 'I made a 3d model, cool'
+  img: 'assets/img/animation.gif'
+- mies:
+  title: 'Inspired by Mies'
+  url: '#'
+  description: 'I faced my biggest fears and created my dreams'
+  img: 'assets/img/mies1.jpg'
