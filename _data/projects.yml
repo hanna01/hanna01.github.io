@@ -6,7 +6,7 @@
   img: 'assets/img/corbusier1.jpg'
 - 3dmodel:
   title: '3d model'
-  url: '#'
+  url: '/2018/04/20/demo-project.html'
   description: 'I made a 3d model, cool'
   img: 'assets/img/animation.gif'
 - mies:
