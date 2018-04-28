@@ -55,3 +55,11 @@ footer li, footer a {
     text-transform:uppercase;
     font-weight:bold;
 }
+
+
+@media (max-width: 480px) {
+    .mobile-hide {
+        display: none;
+    }
+}
+

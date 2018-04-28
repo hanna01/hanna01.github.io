@@ -41,7 +41,7 @@ body, html {
     bottom:0px;
 }
 
-.element-info h3, h4 {
+.element-info h3, .element-info h4 {
     color:white;
 }
 
@@ -54,6 +54,36 @@ body, html {
     width:300px;
 }
 
-.grid-element:hover {
+.element-info-box {
+    height:100%;
+    width:100%;
+    background: black;
+    box-sizing: border-box;
+    padding:20px;
+    text-align: center;
+}
+
+.element-info-box ul {
+    padding: 60px 0px 40px 20px;
+}
+
+.element-info-box li {
+    text-align: left;
+    list-style: none;
+}
+
+.element-info-box a {
+    color: hsl(0, 80%, 50%);
+}
+
+.element-info-box a:hover {
+    color: hsl(0, 80%, 50%);
+    text-decoration: underline;
+}
+
+.filtered-element {
     filter:grayscale(100%);
+}
+.filtered-element:hover {
+    filter:grayscale(0%);
 }

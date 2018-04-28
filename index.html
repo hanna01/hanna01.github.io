@@ -9,12 +9,33 @@
 </head>
 
 <body>
+        {%- include header.html -%}
     <main>
         <div class="projects">
             <div class="grid">
+                <a href="{{ site.data.about.url }}">
+                        <div class="grid-element">
+                            <img src="{{site.data.about.img}}">
+                            <div class="element-info">
+                                <h3>{{ site.data.about.title }} </h3>
+                                <h4>{{ site.data.about.description }} </h4>
+                            </div>
+                        </div>
+                    </a>
+                <div class="grid-element">
+                        <div class="element-info-box">
+                            <h3>Welcome to my space</h3>
+                            <ul>
+                                <li>&rarr; <a href="#">view my portfolio</a></li>
+                                <li>&rarr; <a href="#">read about me</a></li>
+                                <li>&rarr; view my projects</li>
+                            </ul>
+                            <h4>Click on the boxes to read more!</h4>
+                        </div>
+                    </div>
                 {% for item in site.data.projects %}
                 <a href="{{ item.url }}">
-                    <div class="grid-element">
+                    <div class="grid-element filtered-element">
                         <img src="{{item.img}}">
                         <div class="element-info">
                             <h3>{{ item.title }} </h3>
@@ -26,6 +47,7 @@
             </div>
         </div>
     </main>
+    {%- include footer.html -%}
 </body>
 
 </html>
