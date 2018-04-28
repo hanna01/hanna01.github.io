@@ -4,3 +4,5 @@ title: hannas.space
 author: Hanna Andersson 
 description: 'personal space / blog / portfolio'
 mail: hanna@example.com
+
+theme: jekyll-theme-minimal
